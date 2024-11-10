@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+
+    & ul {
+        display: flex;
+        list-style: none;
+
+        & a {
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 15px;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+}
+.img img {
+    width: 250px;
+    margin-left: 30px;
+}
+#banner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background:  url(https://nurulfikri.ac.id/wp-content/uploads/slider/cache/b9cdbba1a0e7c5c45cc35ca06eaebf93/Banner-Web-1-scaled.webp);
+    & .promosi {
+        width: 30%;
+        margin-left: 20px;
+        color: aliceblue;
+        & h2 {
+            background-color: blue;
+            text-align:justify;
+            padding: 2px;
+            margin-bottom: -17px;
+        }
+        & p {
+            background-color: orange;
+            text-align: justify;
+            padding: 2px;
+        }
+    }
+}
+#prodi {
+    background-color:blue ;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: center;
+    & .card{
+        background-color: aliceblue;
+        width: 25%;
+        border-radius: 25px;
+        padding: 2px 20px;
+        margin: 5px;
+    }
+    & .btn-mobile {
+        border: 1px solid blue;
+        padding: 2px;
+    }
+    & .btn-mobile:hover {
+        background-color: aqua;
+    }
+}
